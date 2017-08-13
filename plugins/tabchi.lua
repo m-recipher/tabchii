@@ -1,5 +1,5 @@
 -- Start TabchiBot
-local sudomsg = 282958812 -- put your id here 
+local sudomsg = 317927535 -- put your id here 
 local function reload_plugins( )
   plugins = {}
   load_plugins()
@@ -251,7 +251,7 @@ end
 end
 if matches[1]== "help" and is_sudo(msg) then
 local text =[[
-➣➣TabchiHelp By @LuaError
+
 <code>---------------------------------</code>
 <b>─═हई Brodcast Help ईह═─</b>
 <code>》!pm [Id] [Text]</code>
@@ -335,7 +335,7 @@ local text =[[
 <code>》!myinfo</code>
 <i>دریافت اطلاعات</i>
 <code>---------------------------------</code>
-PowerBy 》@LuaError 
+
 ]]
 return text
 end
